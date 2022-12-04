@@ -1,0 +1,176 @@
+@import "./fonts.css";
+@import "./normalize.css";
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #595959;
+}
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+h2 {
+   font-size: 22px;
+   line-height: 27px; 
+}
+h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+h4 {
+    font-size: 14px;
+    line-height: 17px;
+}
+.left h2 {
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* Left block START */
+.left {
+    width: 100%;
+    max-width: 370px;
+    background-color: #1e2939;
+}
+.avatar {
+    width: 100%;
+    max-width: 370px;
+    height: 354px;
+    margin-top: 40px;
+    margin-bottom: 51px;
+}
+.contacts {
+    min-width: 183px;
+    margin-left: 40px;
+    margin-bottom: 47px;
+}
+.phone {
+    display: inline-block;
+    width: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 15px;
+}
+.mail {
+    display: inline-block;
+    width: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+.contacts p a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+.contacts p a:hover {
+    color: #fff;
+    opacity: 1;
+}
+.tech__skill {
+    
+    margin-bottom: 44px;
+}
+.tech__skill h2 {
+    margin-left: 34px;;
+}
+.skill__list {
+    margin-top: 8px;
+}
+.skill__list li {
+    color: #fb6d3a;
+    margin-left: 56px;
+}
+.skill__list p {
+    color: #fff;
+    opacity: 0.5;
+}
+.soft__skill h2 {
+    margin-left: 34px;
+}
+/* Left block END */
+/* Content block START */
+.content {
+    background-color: #fff;
+    width: 100%;
+    max-width: 830px;
+    padding-left: 88px;
+}
+.intro {
+    margin-top: 102px;
+    width: 400px;
+}
+.intro h1 {
+    margin-top: 19px;
+    margin-bottom: 24px;
+}
+
+.projects {
+    margin-top: 40px;
+    margin-bottom: 51px;
+    width: 485px;
+}
+.projects__list {
+    margin-top: 15px;
+    margin-left: 16px;
+}
+.projects__list li a {
+    text-decoration: none;
+    color: #595959;
+}
+.projects__list li a:hover {
+    color: #fb6d3a;
+}
+/* Content block END */
+/* Experience block START */
+.work__experience {
+    width: 525px;
+}
+.work h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.work h3 span {
+    color: #fb6d3a;
+}
+.work {
+    margin-bottom: 16px;
+}
+.work p span {
+    color: #000;
+}
+.work__list {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* Experience block END */
+/* Education block START */
+.education {
+    width: 327px;
+    margin-top: 50px;
+}
+.education h3 {
+    color: #fb6d3a;
+    margin-top: 12px;
+    margin-bottom: 11px;
+}
+.education p {
+    margin-top: 12px;
+    
+}
+.education p span {
+    color: #000;
+}
+/* Education block END */
