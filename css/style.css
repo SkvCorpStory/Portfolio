@@ -32,7 +32,6 @@ h4 {
 .wrapper {
     display: flex;
     width: 100%;
-    height: 100%;
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
@@ -47,7 +46,6 @@ h4 {
 .avatar {
     width: 100%;
     max-width: 370px;
-    height: 354px;
     margin-top: 40px;
     margin-bottom: 51px;
 }
