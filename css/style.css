@@ -504,37 +504,35 @@ h4 {
         max-width: 400px;
     }
     .contacts {
-        display: flex;
-        flex-direction: column;
-        height: 50px;
+        display: inline-flexbox;
+        height: 40px;
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: 10px;
+        padding-top: 5px;
         padding-bottom: 10px;
         overflow-y: hidden;
         border-bottom: 1px solid #fff;
     }
     .contacts h2 {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 30px;
         text-align: center;
         letter-spacing: 3px;
+        margin-bottom: 25px;
         text-transform: uppercase;
     }
     .contacts p {
-        display: inline-block;
-        margin: 0 auto;
+        display: block;
+        text-align: center;
         width: 100%;
-        max-width: 220px;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 16px;
     }
     .phone {
-        margin-top: 20px;
+        margin-top: 0;
     }
     .tech__skill {
         display: block;
-        flex-direction: column;
         width: 100%;
         max-width: 400px;
         height: 40px;
