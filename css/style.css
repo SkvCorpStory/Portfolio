@@ -310,11 +310,11 @@ h4 {
     }
     .left {
         display: flex;
-        column-gap: 20px;
+        column-gap: 5px;
         flex-direction: row-reverse;
         width: 100%;
         max-width: 960px;
-        padding-left: 20px;
+        padding-left: 10px;
         border-radius: 8px;
     }
     .left p {
