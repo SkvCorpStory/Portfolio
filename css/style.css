@@ -58,27 +58,16 @@ h4 {
     margin-left: 40px;
     margin-bottom: 47px;
 }
-.phone {
+.contacts a {
     display: inline-block;
-    width: 26px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 15px;
+    width: 100%;
+    max-width: 25px;
+    height: 25px;
 }
-.mail {
+.social {
     display: inline-block;
-    width: 26px;
-    font-weight: 700;
-    color: #fff;
-}
-.contacts p a {
-    text-decoration: none;
-    color: #fff;
-    opacity: 0.5;
-}
-.contacts p a:hover {
-    color: #fff;
-    opacity: 1;
+    width: 100%;
+    max-width: 25px;
 }
 .tech__skill {
     margin-bottom: 44px;
@@ -253,7 +242,6 @@ h4 {
 }
 .education p {
     margin-top: 12px;
-    
 }
 .education p span {
     color: #000;
@@ -325,6 +313,7 @@ h4 {
         max-width: 250px;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 50px;
     }
     .contacts,
     .tech__skill,
@@ -419,10 +408,6 @@ h4 {
         margin-right: auto;
         margin-left: auto;
     }
-    .soft__skill,
-    .tech__skill {
-        display: none;
-    }
     .skill__list li {
         margin-left: -15px;
     }
@@ -502,6 +487,7 @@ h4 {
         display: block;
         width: 100%;
         max-width: 400px;
+        margin-left: 0;
     }
     .contacts {
         display: inline-flexbox;
@@ -511,6 +497,7 @@ h4 {
         padding-top: 5px;
         padding-bottom: 10px;
         overflow-y: hidden;
+        text-align: center;
         border-bottom: 1px solid #fff;
     }
     .contacts h2 {
@@ -521,15 +508,14 @@ h4 {
         margin-bottom: 25px;
         text-transform: uppercase;
     }
-    .contacts p {
-        display: block;
-        text-align: center;
+    .contacts a {
         width: 100%;
-        font-size: 14px;
-        line-height: 16px;
+        max-width: 50px;
+        height: 50px;
     }
-    .phone {
-        margin-top: 0;
+    .social {
+        width: 100%;
+        max-width: 50px;
     }
     .tech__skill {
         display: block;
